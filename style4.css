@@ -1,0 +1,88 @@
+body
+{ 
+	padding :0;
+	margin:0;
+	background: linear-gradient(135deg,#71b7e6,#9b59b6);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h1
+{
+	color:white;
+	font-family:Cursive;
+	font-weight: bold;
+	text-align: center; 
+}
+.menu-bar
+{    margin :20px;
+	background-color:black;
+	font-family:Cursive;
+	text-align: center;
+}
+.menu-bar ul 
+{
+	display:inline-flex;
+	list-style: none;
+	color:white;
+}
+.menu-bar ul li 
+{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a 
+{
+	text-decoration: none;
+	color:white;
+}
+.active,.menu-bar ul li:hover
+{
+	background: linear-gradient(135deg,#71b7e6,#9b59b6);
+	border-radius:3px; 
+}
+ .pizza
+ {   margin :20px ;
+	
+ 	background: white;
+ }
+ h2
+{
+color:black;
+	font-family:Cursive;
+	font-weight: bold;
+	
+}
+.price1
+{
+	background-color: crimson;
+	color:white;
+float: right;
+
+}
+p
+{
+	color:#B3B6B7  ;
+	font-family:Cursive;
+}
+.new
+{
+	background-color: red;
+	color:white;
+}
+.a0
+{
+	
+  font-family: comic sans ms;
+  width: 50%;
+  float: left;
+}
+.a1
+{
+  font-family: comic sans ms;
+  width: 50%;
+  text-align:right;
+  float: right;
+}

@@ -1,0 +1,147 @@
+body
+{   
+	margin:0;
+	padding: 0;
+	height: 120vh;
+	display: flex;
+	align-items: center;
+	font: Cursive;
+	justify-content: center;
+	background:linear-gradient(135deg,#71b7e6,#9b59b6);
+	padding: 30px;
+}
+
+.c
+{
+	margin-top: 5.5%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;
+
+
+}
+.c h1
+{
+	
+text-align: center;
+padding:  0 0 20px 0;
+border-bottom: 1px solid silver;
+}
+.c form
+{
+	padding: 0 40px;
+	box-sizing: border-box;
+
+}
+
+form .input1
+{
+	position: relative;
+	border-bottom:2px solid #adadad;
+	margin :30px 0; 
+}
+.input1 input
+{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border:none;
+	background:none;
+	outline:none;
+   
+}
+
+
+
+form .input2
+{
+	position: relative;
+	border-bottom:2px solid #adadad;
+	margin :30px 0; 
+}
+.input2 input
+{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border:none;
+	background:none;
+	outline:none;
+   
+}
+
+form .input3
+{
+	position: relative;
+	border-bottom:2px solid #adadad;
+	margin :30px 0; 
+}
+.input3 input
+{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border:none;
+	background:none;
+	outline:none;
+   
+}
+
+
+form input[type=button]
+{    
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color:#fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 15px;
+	background: linear-gradient(135deg,purple,white);
+	border: 0 none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+form .input5
+{
+	position: relative;
+	border-bottom:2px solid #adadad;
+	margin :30px 0; 
+}
+.input5 input
+{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border:none;
+	background:none;
+	outline:none;
+   
+}
+
+form input[type=submit]
+{    
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color:#fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 15px;
+	background: linear-gradient(135deg,#71b7e6,#9b59b6);
+	border: 0 none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+a
+{
+	color:red;
+}

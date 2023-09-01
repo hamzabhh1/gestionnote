@@ -1,0 +1,30 @@
+body
+{
+	margin:100;
+	padding: 0;
+	font-family: Cursive;
+	background:linear-gradient(135deg,#71b7e6,#9b59b6);
+	height: 100vh;
+	overflow: hidden;
+}
+
+h2{
+	margin:30;
+	font-style:oblique;
+	font-family: 'Amatic SC', sans-serif;
+	color:rgb(100,50,100);
+	border: 2px solid Tomato;
+	border-color:rgb(238,130,238)
+}
+h1{
+	background-position:center;
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size:55;
+	text-align:center;
+}
+p{
+	font-family:"Bell MT";
+	color:white;
+	font-size:35px;
+	text-decoration:line-through;
+}

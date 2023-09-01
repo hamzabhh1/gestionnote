@@ -1,0 +1,17 @@
+
+
+<html>
+ <head>
+  <title>Ma première page Web</title>
+  <meta charset ="UTF-8"/>
+  <meta name="keywords" content="cours html, balise meta, formulaires, listes, tableaux, cadres"/>
+  <meta name="author" content= "Ines Riahi"/>
+
+ </head>
+
+ <body>
+     Salut !  <br/>  et Bienvenue dans ma page web
+ééééé
+ </body>
+
+</html> 

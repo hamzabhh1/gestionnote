@@ -1,0 +1,43 @@
+body
+{     margin:0;
+	
+	background:linear-gradient(135deg,#71b7e6,#9b59b6);
+	
+}
+.head1
+{   text-align: center;
+	color:white;
+  font-family: comic sans ms;
+
+}
+.p1
+{
+	color:white;
+  font-family: comic sans ms;
+}
+.chef{
+	width: 200px;
+	clip-path: circle();
+	float: right;
+}
+.pic
+{  
+	width: 100%;
+}
+.d1
+{
+	color:white;
+  font-family: comic sans ms;
+  width: 50%;
+  float: left;
+}
+.d2
+{
+	color:white;
+  font-family: comic sans ms;
+  width: 50%;
+  float: right;
+}
+.aa
+{
+text-align:right;}

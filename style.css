@@ -1,0 +1,109 @@
+
+body
+{ 
+	
+	padding :0;
+	margin:0;
+	background-image: url(i2.jpg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+
+	background-image: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.menu-bar ul 
+{
+	display:inline-flex;
+	list-style: none;
+	color:white;
+}
+.menu-bar ul li 
+{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a 
+{
+	text-decoration: none;
+	color:white;
+}
+.active,.menu-bar ul li:hover
+{
+		background-image: linear-gradient(135deg,#71b7e6,#9b59b6);
+
+	border-radius:3px; 
+}
+.sub-menu
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu
+{
+	display: block;
+	position: absolute;
+	 margin-top:15px;
+	 margin-left: -15px;
+	 background-image: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.menu-bar ul li:hover .sub-menu ul
+{
+	display: block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 10px;
+	border-bottom: 1px dotted #fff;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover
+{
+color:#b2ff00;	
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	 margin-top:15px;
+	 margin-left: -15px;
+	 background-image: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 10px;
+	border-bottom: 1px dotted #fff;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.32
+menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color:#b2ff00;	
+}
+.best
+{   
+	font-family:Cursive;
+	text-align: center;
+	color: white;
+}
